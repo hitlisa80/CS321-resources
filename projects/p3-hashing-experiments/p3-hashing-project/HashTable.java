@@ -30,4 +30,18 @@ abstract class Hashtable {
            }
            throw new RuntimeException("Table is full");
         }
+
+        public int getCount() {
+            return count;
+        }
+
+        public double getAverageProbes() {
+            int totalProbes = 0;
+            for (HashObject obj : table) {
+                if (obj != null) {
+                    totalProbes += obj.getProbeCount();
+                }
+            }
+            return (double) totalProbes / count;
+        }
     }

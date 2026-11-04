@@ -4,7 +4,7 @@ public class DoubleHashing extends Hashtable {
     }
 
     @Override
-    protected abstract int probe(int keyHash, int attempt) {
+        protected int probe(int keyHash, int attempt) {
         long startIndex;
         long step;
         startIndex = Math.floorMod(primaryHash(keyHash), size);
