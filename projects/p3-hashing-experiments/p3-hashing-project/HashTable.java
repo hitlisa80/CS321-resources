@@ -1,3 +1,6 @@
+import java.io.PrintWriter;
+import java.io.FileNotFoundException;
+
 abstract class Hashtable {
     protected HashObject[] table;
     protected int size;
@@ -44,4 +47,18 @@ abstract class Hashtable {
             }
             return (double) totalProbes / count;
         }
-    }
+
+        public void dumpToFile(String filename) {
+            try (PrintWriter writer = new PrintWriter(filename)) {
+                for (int index = 0; index < table.length; index++) {
+                    if (table[index] != null) {
+                        writer.println("table[" + index + "]: " + table[index].getKey() + " " + table[index].getFrequency() + " " + table[index].getProbeCount());
+                    }
+                }
+            } catch (FileNotFoundException e) {
+                System.err.println("Error writing to file: " + e.getMessage());
+            }
+            
+        }
+            }
+        

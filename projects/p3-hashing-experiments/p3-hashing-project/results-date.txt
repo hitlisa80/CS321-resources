@@ -1,0 +1,57 @@
+
+--------------------------------------------------------------------------------
+Hashtable Experiment: 95791
+Total Unique Keys: 47896
+Input Source Type: Dates
+Linear Probing Average Probes: 1.4882036078169367
+Double Hashing Average Probes: 1.5545557040253883
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Hashtable Experiment: 95791
+Total Unique Keys: 57475
+Input Source Type: Dates
+Linear Probing Average Probes: 1.5452805567638104
+Double Hashing Average Probes: 1.6788168769030014
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Hashtable Experiment: 95791
+Total Unique Keys: 67054
+Input Source Type: Dates
+Linear Probing Average Probes: 1.6005309153816327
+Double Hashing Average Probes: 1.8499567512750916
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Hashtable Experiment: 95791
+Total Unique Keys: 76633
+Input Source Type: Dates
+Linear Probing Average Probes: 1.7964975924210196
+Double Hashing Average Probes: 2.224968355669229
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Hashtable Experiment: 95791
+Total Unique Keys: 86212
+Input Source Type: Dates
+Linear Probing Average Probes: 2.3319723472370435
+Double Hashing Average Probes: 2.898285621491208
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Hashtable Experiment: 95791
+Total Unique Keys: 91002
+Input Source Type: Dates
+Linear Probing Average Probes: 2.8453220808333883
+Double Hashing Average Probes: 3.5761192061712928
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Hashtable Experiment: 95791
+Total Unique Keys: 94834
+Input Source Type: Dates
+Linear Probing Average Probes: 3.9768964717295483
+Double Hashing Average Probes: 5.210314865976337
+--------------------------------------------------------------------------------
+
